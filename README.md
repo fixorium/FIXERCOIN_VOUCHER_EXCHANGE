@@ -24,7 +24,8 @@ npm install fixorium-library
 
 Fixorium library:
 javascript
-const Fixorium = require('fixorium-library');
+<script>
+  const Fixorium = require('fixorium-library');
 const connection = new Connection('https:                          
 const fixorium = new Fixorium(connection);
 
@@ -54,3 +55,4 @@ fixorium.getTokenPrice('solana')
   .catch((error) => {
     console.error(error);
   });
+  </script>
